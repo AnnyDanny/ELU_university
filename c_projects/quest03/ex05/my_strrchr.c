@@ -21,8 +21,8 @@ char* my_strrchr(char* param_1, char param_2)
 
 int main()
 {
-    char *str = "121212";
-    char c = '2';
+    char *str = "abcabc";
+    char c = 'b';
     char *dest = my_strrchr(str, c);
 
     printf("%s\n", dest);
